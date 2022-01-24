@@ -7,4 +7,4 @@ Solutions to HackerRank problems for C++
 
 | No. | Problem | Score |
 | ---- | ---- | ---- |
-| 00 | Say "Hello, World!" With C++ | 1 |
+| 00 | Say "Hello, World!" With C++ | 5 |

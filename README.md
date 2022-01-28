@@ -8,3 +8,4 @@ Solutions to HackerRank problems for C++
 | No. | Problem | Score |
 | ---- | ---- | ---- |
 | 00 | Say "Hello, World!" With C++ | 5 |
+| 01 | Input and Output | 5 |

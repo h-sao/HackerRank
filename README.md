@@ -7,9 +7,10 @@ Solutions to HackerRank problems for C++
 
 ## 00 Warmup
 
-| No. | Probrem | Score |
-| ---- | ---- | ---- |
-| 00 | Solve Me First | 1 |
+| No. | Probrem | Score | Rank at time of solving |
+| ---- | ---- | ---- | ---- |
+| 00 | Solve Me First | 1 | |
+| 01 | Simple Array Sum | 10 | 2550104|
 
 # Language Proficiency
 

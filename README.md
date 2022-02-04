@@ -7,9 +7,9 @@ Solutions to HackerRank problems for C++
 
 ## 00 Warmup
 
-| No. | Probrem | Score | cumulative points |Rank at time of solving |　
+| No. | Probrem | Points | cumulative points |Rank at time of solving |
 | ---- | ---- | ---- | ---- | ---- |
-| 00 | Solve Me First | 1 | | 1 |
+| 00 | Solve Me First | 1 | 1 |  |
 | 01 | Simple Array Sum | 10 | 11 | 2550104 |
 | 02 | Compare the Triplets | 10 | 21 | 2321819 |
 

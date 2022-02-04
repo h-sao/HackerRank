@@ -11,6 +11,7 @@ Solutions to HackerRank problems for C++
 | ---- | ---- | ---- | ---- |
 | 00 | Solve Me First | 1 | |
 | 01 | Simple Array Sum | 10 | 2550104|
+| 02 | Compare the Triplets | 10 | 2321819 |
 
 # Language Proficiency
 

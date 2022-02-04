@@ -10,8 +10,8 @@ Solutions to HackerRank problems for C++
 | No. | Probrem | Score | Rank at time of solving |
 | ---- | ---- | ---- | ---- |
 | 00 | Solve Me First | 1 | |
-| 01 | Simple Array Sum | 10 | 2550104|
-| 02 | Compare the Triplets | 10 | 2321819 |
+| 01 | Simple Array Sum | 10 | 2550104 (11p) |
+| 02 | Compare the Triplets | 10 | 2321819 (21p) |
 
 # Language Proficiency
 

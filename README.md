@@ -13,7 +13,7 @@ Solutions to HackerRank problems for C++
 | 01 | Simple Array Sum | 10 | 11 | 2550104 |
 | 02 | Compare the Triplets | 10 | 21 | 2321819 |
 | 03 | A Very Big Sum | 10 | 31 | 2063649 |
-| 03 | Diagonal Difference | 10 | 41 | 1904320 |
+| 04 | Diagonal Difference | 10 | 41 | 1904320 |
 
 # Language Proficiency
 

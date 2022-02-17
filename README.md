@@ -14,6 +14,7 @@ Solutions to HackerRank problems for C++
 | 02 | Compare the Triplets | 10 | 21 | 2321819 |
 | 03 | A Very Big Sum | 10 | 31 | 2063649 |
 | 04 | Diagonal Difference | 10 | 41 | 1904320 |
+| 05 | Plus Minus | 10 | 51 | 1772153 |
 
 # Language Proficiency
 

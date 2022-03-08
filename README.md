@@ -26,3 +26,10 @@ Solutions to HackerRank problems for C++
 | ---- | ---- | ---- |
 | 00 | Say "Hello, World!" With C++ | 5 |
 | 01 | Input and Output | 5 |
+
+# Mock Test
+
+| No. | C++ | 
+| ---- | ---- |
+| 00 | FizzBuss |
+| 01 | Find Median |

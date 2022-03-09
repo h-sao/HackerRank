@@ -7,7 +7,7 @@ Solutions to HackerRank problems for C++
 
 ## 00 Warmup
 
-| No. | Probrem | Points | cumulative points |Rank at time of solving |
+| No. | Probrem | Points | Cumulative points |Rank at time of solving |
 | ---- | ---- | ---- | ---- | ---- |
 | 00 | Solve Me First | 1 | 1 |  |
 | 01 | Simple Array Sum | 10 | 11 | 2550104 |
@@ -22,10 +22,11 @@ Solutions to HackerRank problems for C++
 
 ## 00 Introduction
 
-| No. | C++ | Score |
-| ---- | ---- | ---- |
-| 00 | Say "Hello, World!" With C++ | 5 |
-| 01 | Input and Output | 5 |
+| No. | C++ | Points | Cumulative points| Rank at time of solving |
+| ---- | ---- | ---- | ---- | ---- |
+| 00 | Say "Hello, World!" With C++ | 5 | 5 ||
+| 01 | Input and Output | 5 | 10 | |
+| 02 | Basic Data Types | 10 | 20 |557302 |
 
 # Mock Test
 

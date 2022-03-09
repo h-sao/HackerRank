@@ -17,6 +17,7 @@ Solutions to HackerRank problems for C++
 | 05 | Plus Minus | 10 | 51 | 1772153 |
 | 06 | Staircase | 10 | 61| 1670646 |
 | 07 | Mini-Max Sum | 10 | 71| 1561182 |
+| 08 | Birthday Cake Candles| 10 | 81| 1463355 |
 
 # Language Proficiency
 

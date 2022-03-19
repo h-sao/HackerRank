@@ -34,6 +34,7 @@ Solutions to HackerRank problems for C++
 | 00 | Say "Hello, World!" With C++ | 5 | 5 ||
 | 01 | Input and Output | 5 | 10 | |
 | 02 | Basic Data Types | 10 | 20 |557302 |
+| 03 | Conditional Statements | 10 | 30 | 501475 |
 
 # Mock Test
 

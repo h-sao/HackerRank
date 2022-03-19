@@ -29,12 +29,12 @@ Solutions to HackerRank problems for C++
 
 ## 00 Introduction
 
-| No. | C++ | Points | Cumulative points| Rank at time of solving |
-| ---- | ---- | ---- | ---- | ---- |
-| 00 | Say "Hello, World!" With C++ | 5 | 5 ||
-| 01 | Input and Output | 5 | 10 | |
-| 02 | Basic Data Types | 10 | 20 |557302 |
-| 03 | Conditional Statements | 10 | 30 | 501475 |
+| No. | Level | C++ | Points | Cumulative points| Rank at time of solving |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 00 | Easy | Say "Hello, World!" With C++ | 5 | 5 ||
+| 01 | Easy | Input and Output | 5 | 10 | |
+| 02 | Easy | Basic Data Types | 10 | 20 |557302 |
+| 03 | Easy | Conditional Statements | 10 | 30 | 501475 |
 
 # Mock Test
 

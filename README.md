@@ -19,6 +19,12 @@ Solutions to HackerRank problems for C++
 | 07 | Mini-Max Sum | 10 | 71| 1561182 |
 | 08 | Birthday Cake Candles| 10 | 81| 1463355 |
 
+## 01 Implementation
+
+| No. | Probrem | Points | Cumulative points |Rank at time of solving |
+| ---- | ---- | ---- | ---- | ---- |
+| 00 | The Bomberman Game | 40 | 121 | 1139477 |
+
 # Language Proficiency
 
 ## 00 Introduction

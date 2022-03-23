@@ -36,6 +36,7 @@ Solutions to HackerRank problems for C++
 | 02 | Easy | Basic Data Types | 10 | 20 |557302 |
 | 03 | Easy | Conditional Statements | 10 | 30 | 501475 |
 | 04 | Easy | Functions | 10 | 40 | 452863 |
+| 05 | Easy | Pointer | 10 | 50 | 411364 |
 
 # Mock Test
 

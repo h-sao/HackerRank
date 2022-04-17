@@ -5,20 +5,71 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 
+const int DECIMAL = 10;
+
 /*
  * Complete the 'extraLongFactorials' function below.
  *
  * The function accepts INTEGER n as parameter.
  */
 void large_pattern(int n) {
+    int calc[0xff];     // need to 159, coz 100! number of digits
+    int sum[0xff];     // need to 159, coz 100! number of digits
+    
+    calc[0] = 1;
+    sum[0] = 0;
+    int max_pos = 1;
+    for(int i = 0; i < n; ++i){
+        int mul = i + 2;
+
+        // do calctlation        
+        for(int j = 0; j < max_pos; ++j){
+            calc[j] *= mul;
+        }
+
+        // put array  ??????????????????
+        for(int j = 0; j < max_pos; ++j){
+            if(calc[j] >= DECIMAL){
+                sum[j] = calc[j] % DECIMAL;
+                sum[j+1] = calc[j] / DECIMAL;
+                if(max_pos <= j+1){
+                    ++ max_pos;
+                }
+            }else{
+                sum[j] = calc[j];
+            }
+        }
+        
+        
+        
+
+#if 0
+            if(calc[now] >= DECIMAL){
+                calc[next] += calc[now] / DECIMAL;
+                calc[now]    = calc[now] % DECIMAL;
+                if(max_pos <= next){
+                    ++ max_pos;
+                    break;
+                }
+            }else{
+                calc[j+1] = 0;     // init next value
+            }
+
+#endif
+
+
+        
+    }
 }
 
 void extraLongFactorials(int n) {
+    // large calcration
     if(n > 20){
         large_pattern(n);
         return;
     }
     
+    // it is noemal calclation
     unsigned int sum = 1;
     for(int i = 1; i < (n+1); ++i){
         sum *= i;

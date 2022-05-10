@@ -12,62 +12,87 @@ const int DECIMAL = 10;
  *
  * The function accepts INTEGER n as parameter.
  */
-void large_pattern(int n) {
-    int calc[0xff];     // need to 159, coz 100! number of digits
-    int sum[0xff];     // need to 159, coz 100! number of digits
+ bool separate_value(long val, long& keta0, long& keta1)
+ {
+    bool fg = false;
+    if(val >= DECIMAL){
+        keta0 += val % DECIMAL;
+        keta1 += val / DECIMAL;
+
+        fg = true;
+    }else{
+        keta0 += val;
+    }
     
-    calc[0] = 1;
-    sum[0] = 0;
-    int max_pos = 1;
+    if(keta0 >= DECIMAL){
+        keta1 += keta0 / DECIMAL;
+        keta0 = keta0 % DECIMAL;
+        fg = true;
+    }
+    return fg;
+ }
+ 
+void large_pattern(int n) {
+    std::array<long, 0xff> calc = {1}; // need to 159, coz 100! number of digits
+    std::array<long, 0xff> sum = calc; // need to 159, coz 100! number of digits
+    
+    int max_keta = 1;
     for(int i = 0; i < n; ++i){
-        int mul = i + 2;
+        int mul = i + 1;
 
         // do calctlation        
-        for(int j = 0; j < max_pos; ++j){
-            calc[j] *= mul;
+        for(int j = 0; j < max_keta; ++j){
+            calc[j] = sum[j] * mul;
+            sum[j] = 0;
         }
-
-        // put array  ??????????????????
-        for(int j = 0; j < max_pos; ++j){
-            if(calc[j] >= DECIMAL){
-                sum[j] = calc[j] % DECIMAL;
-                sum[j+1] = calc[j] / DECIMAL;
-                if(max_pos <= j+1){
-                    ++ max_pos;
-                }
-            }else{
-                sum[j] = calc[j];
+        if(0){//////////////////////////////////////
+            std::cout << endl << "i:" << i << endl;
+            std::cout << "calc:";
+            for(int j = (max_keta-1); j >= 0; --j){
+                std::cout << calc[j] << ",";
             }
+            std::cout << std::endl;
         }
         
-        
-        
-
-#if 0
-            if(calc[now] >= DECIMAL){
-                calc[next] += calc[now] / DECIMAL;
-                calc[now]    = calc[now] % DECIMAL;
-                if(max_pos <= next){
-                    ++ max_pos;
+        // put array
+        for(int j = 0; j < max_keta; ++j){
+            if( separate_value(calc[j], sum[j], sum[j+1])){
+                if(max_keta <= j+1){
+                    ++ max_keta;
+                    //////////////////////////
+                    //std::cout << "keta:" << max_keta << endl;
+                    if(0){//////////////////////////////////////
+                        std::cout << "sum:";
+                        for(int j = (max_keta-1); j >= 0; --j){
+                            std::cout << sum[j] << ",";
+                        }
+                        std::cout << std::endl;
+                    }
                     break;
                 }
-            }else{
-                calc[j+1] = 0;     // init next value
             }
-
-#endif
-
-
-        
+            if(0){//////////////////////////////////////
+                std::cout << "sum:";
+                for(int j = (max_keta-1); j >= 0; --j){
+                    std::cout << sum[j] << ",";
+                }
+                std::cout << std::endl;
+            }
+        }
+    }
+    
+//std::cout << "=="  << endl;
+    for(int j = (max_keta-1); j >= 0; --j){
+        std::cout << sum[j];
     }
 }
 
 void extraLongFactorials(int n) {
     // large calcration
-    if(n > 20){
+    //if(n > 20){
         large_pattern(n);
         return;
-    }
+    //}
     
     // it is noemal calclation
     unsigned int sum = 1;

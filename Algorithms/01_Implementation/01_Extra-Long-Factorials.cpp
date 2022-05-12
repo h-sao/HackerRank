@@ -57,6 +57,7 @@ void debug_show_sum(std::array<long, 0xff> &sum, int keta, bool show_keta){
         keta0 = keta0 % DECIMAL;
         fg = true;
     }
+
     return fg;
  }
  
@@ -86,9 +87,20 @@ void large_pattern(int n) {
             }
             debug_show_sum(sum, max_keta, false);  ///////////////
         }
+        
+        // 
+//        if(sum[max_keta -1]){
+        std::cout << "keta afure? ";
+        std::cout << max_keta << ", ";
+        std::cout << sum[max_keta -1] << endl;
+        std::cout << "---" << endl;
+            if(sum[max_keta -1] >= DECIMAL){
+                //////////////////////
+            }
+//        }
+        
     }
     
-    std::cout << "=="  << endl;  ///////////////////
     for(int j = (max_keta-1); j >= 0; --j){
         std::cout << sum[j];
     }

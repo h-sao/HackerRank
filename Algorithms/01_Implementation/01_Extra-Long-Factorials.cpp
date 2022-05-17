@@ -5,7 +5,7 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 
-const int DECIMAL = 10;
+const long DECIMAL = 10;
 bool MY_DEBUG = true;
 
 
@@ -88,17 +88,17 @@ void large_pattern(int n) {
             debug_show_sum(sum, max_keta, false);  ///////////////
         }
         
-        // 
-//        if(sum[max_keta -1]){
-        std::cout << "keta afure? ";
-        std::cout << max_keta << ", ";
-        std::cout << sum[max_keta -1] << endl;
-        std::cout << "---" << endl;
-            if(sum[max_keta -1] >= DECIMAL){
-                //////////////////////
-            }
-//        }
-        
+        // //////////////////////////////////
+        if(sum[max_keta -1] >= DECIMAL){
+            std::cout << "keta afure? ";
+            std::cout << max_keta << ", ";
+            std::cout << sum[max_keta -1] << endl;
+//            if(separate_value(sum[max_keta -1], sum[max_keta -1], sum[max_keta])){
+//                ++ max_keta;
+//                debug_show_sum(sum, max_keta, true);  ///////////////
+//            std::cout << "---" << endl;
+//            }
+        }
     }
     
     for(int j = (max_keta-1); j >= 0; --j){
